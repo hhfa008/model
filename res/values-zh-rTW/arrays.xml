@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 許可權 -->
+    <string-array name="spinner_quanxian">
+        <item>所有人可見</item>
+         <item>僅好友可見</item>
+           <item>僅個人可見</item>
+    </string-array>
+    
+    <!-- club許可權 -->
+      <string-array name="clubspace_quanxian">
+        <item>所有人可見</item>
+         <item>僅會員可見</item>
+    </string-array>
+
+     <!-- 性別-->
+    <string-array name="sex">
+        <item>男</item>
+         <item>女</item>
+          <item>保密</item>
+    </string-array>
+
+    <!-- 上傳圖片最後一步spinner-->
+    <string-array name="spinner_Xiangcequanxian">
+        <item>足跡</item>
+         <item>夢想</item>
+          <item>收藏</item>
+    </string-array>
+</resources>

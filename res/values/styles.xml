@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 下面的是actionbar的 -->
+    <!-- 将自定义的style取名为CustomTheme，父类为Theme.Holo.Light，也就是说默认背景是白底黑字（如果是Theme.Holo，则默认是黑底白字） -->
+    <style name="CustomTheme" parent="AppBaseTheme">
+
+        <!-- android:style/Theme.Holo.Light  <item name="android:windowNoTitle">true</item> -->
+        <!--
+        这是item的背景修改，不按时透明，按时显示绿色   
+        item name="android:selectableItemBackground">@drawable/ad_selectable_backgroundsetTransformationMethodandroid:actionMenuTextAppearance
+        -->
+
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabTextStyle</item>
+        <item name="android:actionDropDownStyle">@style/MyDropDownNav</item>
+        <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+         <item name="android:homeAsUpIndicator">@drawable/btn_left_arrow_one</item>
+        <!-- <item name="android:actionBarTabBarStyle">@style/MyactionBarbackground</item> -->
+    </style>
+    <!-- <item name="android:actionMenuTextAppearance">@style/MyMenuTextAppearance</item> -->
+    <style name="MyMenuTextAppearance" parent="android:TextAppearance.Holo.Widget.ActionBar.Menu">
+
+        <!-- 此处需要 android-14 -->
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- ActionBar.Tab选项标签的样式 -->
+    <style name="MyActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_bg</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+    </style>
+
+    <!-- ActionBar. Tab选项标签字体的样式 -->
+    <style name="MyActionBarTabTextStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/gray_9</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 下拉导航外部按钮的样式 -->
+    <style name="MyDropDownNav" parent="android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/ad_spinner_background_holo_light</item>
+        <item name="android:popupBackground">@drawable/ad_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/ad_selectable_background</item>
+    </style>
+
+    <!-- 下拉导航内部按钮的样式 -->
+    <style name="MyDropDownListView" parent="android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/ad_selectable_background</item>
+    </style>
+
+    <style name="DialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="DialogStyleBottom1" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+    <!-- 新浪表情的颜色 -->
+    <style name="DialogStyleBottomSinaBiaoQing" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 在底部 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="DialogStyleBottom2" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="AlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/popup_bg</item>
+    </style>
+
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/room_rating_bar</item>
+        <item name="android:minHeight">24dip</item>
+        <item name="android:maxHeight">24dip</item>
+    </style>
+
+    <style name="roomRatingBarSmall" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/room_rating_small_bar</item>
+        <item name="android:minHeight">33dip</item>
+        <item name="android:maxHeight">33dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/room_rating_small_bar</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">false</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="all_search_btn_item_textSize">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/f_white</item>
+    </style>
+<style name="mypopwindow_anim_style">
+    <item name="android:windowEnterAnimation">@anim/slide_bottom_in</item>
+ <!-- 指定显示的动画xml -->
+
+    <item name="android:windowExitAnimation">@anim/silde_bottom_out</item>
+ <!-- 指定消失的动画xml -->
+  </style>
+  
+    <!-- Activity主题 --> 
+    <style name="activityTheme" parent="@android:style/Theme.Translucent"> 
+        <item name="android:windowIsTranslucent">true</item> 
+    </style> 
+    
+    
+    
+      
+</resources>

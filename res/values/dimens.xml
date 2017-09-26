@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Spacing_of_10_dp">10dp</dimen>
+    <dimen name="GridView_Spacing_5_dp">5dp</dimen>
+    <!-- 按钮——文本框 -->
+    <dimen name="anniu_wenbenkuang_Height">40dp</dimen>
+    <dimen name="head_width_height">50dp</dimen>
+
+    <!-- 下面的是评论的 -->
+    <!-- 所有评论的发送按钮高 -->
+    <dimen name="all_send_btn_height">30dp</dimen>
+    <!-- 所有评论的文本框文字大小 -->
+    <dimen name="all_send_text_size">14sp</dimen>
+    <!-- 所有评论的表情的宽和高 -->
+    <dimen name="all_pinlun_smile_width_height">25dp</dimen>
+
+    <!-- 下面的是俱乐部列表的 -->
+    <!-- 所有俱乐部灰色框的高 -->
+    <dimen name="all_club_gray_height">30dp</dimen>
+    <!-- 所有俱乐部中定位图标的框 -->
+    <dimen name="all_club_location_width">20dp</dimen>
+    <dimen name="all_club_location_height">23dp</dimen>
+    <!-- 所有俱乐部定位图标中右边的文字的大小 -->
+    <dimen name="all_club_location_right_textSize">12sp</dimen>
+
+    <!-- 所有九宫格之间的间隔 -->
+    <dimen name="all_9patch">5dp</dimen>
+
+    <!-- 所有活动、俱乐部搜索按钮的宽 高 -->
+    <dimen name="all_search_btn_width">65dp</dimen>
+    <dimen name="all_search_btn_height">35dp</dimen>
+    <!-- 所有活动、俱乐部搜索按钮里面的三条线的宽 -->
+    <dimen name="all_search_btn_item_width">20dp</dimen>
+    <dimen name="all_search_edittext_height">35dp</dimen>
+    <!-- 所有类别的字体的大小 -->
+    <dimen name="all_neibie_textSize">25sp</dimen>
+    
+    
+    
+     <dimen name="all_grally_width">30dp</dimen>
+      <dimen name="all_grally_spacing">15dp</dimen>
+    
+    <!-- 所有按钮的高和字的大小 -->
+    <dimen name="all_btn_height">35dp</dimen>
+    <dimen name="all_btn_text">18sp</dimen>
+    
+    <!-- 所有标题 -->
+    <dimen name="all_title_textsize">20sp</dimen>
+    
+      <!-- 所有tabHost的高 -->
+    <dimen name="all_tabHost_height">40dp</dimen>
+    <!-- 站内信中文本框最外层的高 -->
+    <dimen name="all_mail_et_height">35dp</dimen>
+   <dimen name="all_mail_all_text_size">15sp</dimen>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 标题的style -->
+    <style name="style_white_e_20sp">
+        <item name="android:textColor">@color/f_white</item>
+        <item name="android:textSize">@dimen/all_title_textsize</item>
+    </style>
+
+    <!-- 主要用于设置字体   灰#666666色字体，大小20sp -->
+    <style name="style_gray_6_20sp">
+        <item name="android:textColor">@color/gray_6</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="style_gray9_10sp">
+        <item name="android:textColor">@color/gray_9</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <!-- text12sp -->
+    <style name="textSize_text_12sp">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- text10sp -->
+    <style name="textSize_text_10sp">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- text11sp -->
+    <style name="textSize_text_11sp">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- 添加Checkbox的主题 -->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+
+    <!-- 主要用于设置字体   白#eeeeee字体 -->
+    <style name="style_white_e_10sp">
+        <item name="android:textColor">@color/gray_b6b6b6</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- 主要用于设置字体   白#eeeeee字体 -->
+    <style name="style_white_e_15sp">
+        <item name="android:textColor">@color/e_white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_blue_00a2d0_10sp">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- 这是第一个创建俱乐部活动的checkbox -->
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/btn_createnewclub1_check</item>
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:maxHeight">10.0dip</item>
+    </style>
+    <!-- spinner的背景 -->
+    <style name="spinner_beijing">
+        <item name="android:background">@drawable/spinner_bg</item>
+    </style>
+
+    <!-- spinner的背景 2 -->
+    <style name="spinner_xiala">
+        <item name="android:background">@drawable/spinner_xiala</item>
+    </style>
+
+    <!-- 内部EditText,需要去除下面的横线 -->
+    <style name="Edittext_f_white">
+        <item name="android:background">@color/f_white</item>
+    </style>
+
+    <!-- 某些活动的背景 -->
+    <style name="beijing">
+        <item name="android:background">@color/f_white</item>
+    </style>
+
+    <!-- 去标题 -->
+    <style name="fulscreen_theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- <item name="android:windowFullscreen">?android:windowNoTitle</item> -->
+
+
+    <!-- 评分条 -->
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_xin</item>
+    </style>
+    <!-- 字体阴影 -->
+    <style name="textstyle">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+    </style>
+    <!-- 字体大小 -->
+    <style name="text_13sp">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- 标题大小 -->
+    <style name="title_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/f_white</item>
+    </style>
+
+    <style name="mProgress_horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal</item>
+ <!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:maxHeight">15dip</item>
+    </style>
+
+</resources>

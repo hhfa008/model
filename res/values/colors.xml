@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="login_backgroud">#2aa2e6</color>
+    <color name="e_white">#EEEEEE</color>
+    <color name="f_white">#FFFFFF</color>
+    <color name="white_f4f4f4">#F4F4F4</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="gray_6">#666666</color>
+    <color name="shengray">#90222222</color>
+    <color name="gray_dbdbdb">#dbdbdb</color>
+    <color name="gray_e6e6e6">#e6e6e6</color>
+    <color name="gray_445879">#445879</color>
+    <color name="gray_b6b6b6">#b6b6b6</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_c0c0c0">#c0c0c0</color>
+    <color name="gray_50666666">#50666666</color>
+    <color name="shen_blue">#1b315e</color>
+    <color name="blue">#00a2d0</color>
+    <color name="blue_sen">#10619f</color>
+    <color name="chat_blue">#f3f6c7</color>
+   <color name="blue_tab">#44cef6</color> 
+    <color name="blue_01a1d3">#01a1d3</color>
+    <color name="blue_02baee">#02baee</color>
+    <color name="blue_36a7c7">#36a7c7</color>
+    <color name="orange_fa7822">#FA7822</color>
+    <color name="blue_007ea1">#007ea1</color>
+    <color name="black_45597a">#45597a</color>
+    <color name="black_0">#000000</color>
+    <color name="black_1">#90000000</color>
+    <color name="black_2">#90666666</color>
+    <color name="green_3eb251">#3eb251</color>
+    <color name="green">#2bd75f</color>
+    <color name="yellow_ccc00">#CCCC00</color>
+    <color name="red_FF0000">#ff0000</color>
+    <color name="blue_3300ff">#3300FF</color>
+    <color name="black_50000000">#50000000</color>
+    <color name="gray_eae5e9">#eae5e9</color>
+    <color name="gray_333333">#333333</color>
+    <color name="gray_eaeaea">#f3f4f4</color>
+    <color name="gray_cccccc">#cccccc</color>
+    <!-- 二维码 的颜色 -->
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#cb000000</color>
+    <color name="viewfinder_frame">#ff0000ff</color>
+    <color name="backgroud">#ffffffff</color>
+    <color name="title_tv_color">#ffffffff</color>
+    <color name="orange_f1bc56">#f1bc56</color>
+    <color name="color_0">#dedede</color>
+    <color name="color_1">#7cc576</color>
+    <color name="color_2">#2a4253</color>
+    <color name="color_3">#f26d7e</color>
+    <color name="color_4">#a286c0</color>
+    
+    <color name="beijing">#cbf1ff</color>
+    <!-- 日历模式 -->
+    <color name="gray_445978">#445978</color>
+    <color name="blue_dbf1ff">#dbf1ff</color>
+    <color name="yellow_fff3c3">#fff3c3</color>
+    <color name="gray_e4e4e4">#e4e4e4</color>
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+
+    <!-- 以下是支付宝的 -->
+    <color name="background_color">#ffd1dce9</color>
+    <color name="text_color">#ff666666</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="BgColor">#ffd1dce9</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="ToastBgColor">#FF424242</color>
+    <color name="btnColor">#FFFFFF</color>
+    <color name="textColorforItemTitle">#FF666666</color>
+    <color name="secondbtntextColor">#FF496ea3</color>
+    <color name="textColorforCheckBox">#FF333333</color>
+    <color name="bgColor">#FFF2F2F2</color>
+    <color name="downLoadTextNomal">#FF3366CC</color>
+    <color name="downLoadTextPressed">#FFFFFFFF</color>
+    <color name="downLoadBackNomal">#FFFFFFFF</color>
+    <color name="downLoadBackFocus">#FF6698E7</color>
+    <color name="downLoadBackPressed">#FF3366CC</color>
+    <color name="dialog_tiltle_blue">#2277BB</color>
+
+    <!-- 标签颜色 -->
+    <color name="color_6444b3">#6444b3</color>
+    <color name="color_148ea3">#148ea3</color>
+    <color name="color_19c114">#19c114</color>
+    <color name="color_aa1d3f">#aa1d3f</color>
+    <color name="color_c4532f">#c4532f</color>
+    <color name="color_97319f">#97319f</color>
+    <color name="color_5a9ce3">#5a9ce3</color>
+    <color name="color_c7c7ca">#c7c7ca</color>
+    <color name="color_9ed1f4">#9ed1f4</color>
+    <color name="color_4b3186">#4b3186</color>
+    <color name="color_858585">#858585</color>
+ 
+  
+
+</resources>
